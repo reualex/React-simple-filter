@@ -1,0 +1,8 @@
+.filters {
+  display: flex;
+  width: max-content;
+
+  & > div {
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,34 @@
+.custom-select {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  &--multi-select {
+    width: 100%;
+    height: 100%;
+
+    .dropdown-content {
+      min-width: 100%;
+      max-width: max-content;
+      & div {
+        width: max-content;
+      }
+    }
+
+    .dropdown-container,
+    .dropdown-heading {
+      width: 100%;
+      height: 100%;
+    }
+
+    & span {
+      margin-left: 6px;
+      font-family: DM Sans;
+      color: #171717 !important;
+    }
+
+    & svg {
+      color: #171717 !important;
+    }
+  }
+}

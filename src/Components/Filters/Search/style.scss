@@ -1,0 +1,34 @@
+.search {
+  width: 440px;
+  height: 48px;
+  @media (max-width: 710px) {
+    width: 330px;
+  }
+}
+
+.film-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &--main {
+    display: flex;
+    flex-direction: column;
+
+    &--title {
+      font-family: DM Sans;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: -0.2px;
+    }
+    margin-bottom: 12px;
+  }
+  &--category {
+    margin-right: 11px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    color: #777;
+  }
+}
